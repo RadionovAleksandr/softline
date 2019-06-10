@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>softline</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/softline.css">
+    <meta name=" viewport " content="width=device-width, initial-scale=1 ">
+    <meta name="format-detection " content="telephone-no ">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__logo">
+                <a class="header__logo-link" href=""><span class="header__title-red">ABBYY</span>Store</a>
+            </div>
+            <nav class="header__nav-basket">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item header__nav-item--active">1. Ваша корзина</li>
+
+                    <li class="header__nav-item">2. Данные покупателя</li>
+
+                    <li class="header__nav-item">3. Оплата заказа</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__container container">
+            <section class="basket">
+                <div class="basket__top-block">
+                    <h1 class="basket__title">
+                        Ваша корзина
+                    </h1>
+                    <div class="basket__currency-wrap">
+                        <div class="basket__curency-text">Выберите валюту:</div>
+                        <div class="basket__currency">Российский рубль
+                            <span class="arrow"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket__bottom-block">
+                    <table class="table-basket table-basket__products">
+                        <tbody class="table-basket__top-row">
+                            <tr class="table-basket__row table__row-caption">
+                                <td class="table-basket__col table-basket__col--title">Наименование</td>
+                                <td class="table-basket__col table-basket__col--delivery">Доставка</td>
+                                <td class="table-basket__col table-basket__col--price-wrap">Цена за шт.</td>
+                                <td class="table-basket__col table-basket__col--discount">Скидка</td>
+                                <td class="table-basket__col table-basket__col--counter table-basket__col--counter-head">Кол-во</td>
+                                <td class="table-basket__col table-basket__col--sum table-basket__col--fw-normal">Стоимость</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="last-row">
+                        <label class="last-row__discount-wrap" for="last-row__discount-input">
+                        <div class="last-row__discount-text">
+                            Купон на скидку
+                        </div>
+                        <input class="last-row__discount-input" type="text" id="discount-input">
+                        </label>
+                        <button class="last-row__discount-btn">ПРИМЕНИТЬ</button>
+                        <div class="last-row__text">К оплате с учетом скидки:</div>
+                        <div class="last-row__sum">72 000</div>
+                        <div class="last-row__currency currency">руб</div>
+                    </div>
+                    <button class="apply-order button">ОФОРМИТЬ ЗАКАЗ</button>
+                </div>
+
+            </section>
+            <section>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer ">
+
+    </footer>
+
+    <script src="js/softline.js "></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "softline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadionovAleksandr/softline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RadionovAleksandr/softline/issues"
+  },
+  "homepage": "https://github.com/RadionovAleksandr/softline#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0"
+  }
+}
