@@ -198,5 +198,5 @@
     // отрисовываем элементы каталога, проверяем localStorage, если есть элементы отрисовываем в "basket",
     getToStorage();
     updatCart()
-    localStorage.clear()
+        // localStorage.clear()
 })();
