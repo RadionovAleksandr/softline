@@ -196,7 +196,7 @@
     checkoutBtn.addEventListener('click', onCheckout); // вызов алерт после клика кнопки "оформить заказ"
 
     // отрисовываем элементы каталога, проверяем localStorage, если есть элементы отрисовываем в "basket",
-    getToStorage();
+    // getToStorage();
     updatCart()
         // localStorage.clear()
 })();
