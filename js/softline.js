@@ -192,7 +192,6 @@
         var productInBasketStr = productInBasket.join("; ")
         alert('Вы добавили в корзину ' + productInBasketStr + ' на сумму ' + basketSum.textContent + ' руб.')
     };
-
     var checkoutBtn = document.querySelector('.apply-order');
     checkoutBtn.addEventListener('click', onCheckout); // вызов алерт после клика кнопки "оформить заказ"
 
